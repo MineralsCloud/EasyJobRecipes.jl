@@ -4,8 +4,7 @@ juliaup default release</code></pre><p>to configure the <code>julia</code> comma
 
 julia&gt; Pkg.update()
 
-julia&gt; Pkg.add(&quot;EasyJobRecipes&quot;)</code></pre></li><li><p>Run</p><pre><code class="language-julia-repl hljs">julia&gt; using EasyJobRecipes</code></pre><p>and have fun!</p></li><li><p>While using, please keep this Julia session alive. Restarting might cost some time.</p></li></ol><p>If you want to install the latest in-development (probably buggy) version of EasyJobRecipes, type</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using Pkg</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; Pkg.update()</code><code class="nohighlight hljs ansi" style="display:block;">    Updating registry at `~/.julia/registries/General`
-    Updating git-repo `https://github.com/JuliaRegistries/General.git`
+julia&gt; Pkg.add(&quot;EasyJobRecipes&quot;)</code></pre></li><li><p>Run</p><pre><code class="language-julia-repl hljs">julia&gt; using EasyJobRecipes</code></pre><p>and have fun!</p></li><li><p>While using, please keep this Julia session alive. Restarting might cost some time.</p></li></ol><p>If you want to install the latest in-development (probably buggy) version of EasyJobRecipes, type</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using Pkg</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; Pkg.update()</code><code class="nohighlight hljs ansi" style="display:block;">    Updating registry at `~/.julia/registries/General.toml`
   No Changes to `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Project.toml`
   No Changes to `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Manifest.toml`</code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; pkg&quot;add https://github.com/MineralsCloud/EasyJobRecipes.jl&quot;</code><code class="nohighlight hljs ansi" style="display:block;">┌ Warning: The Pkg REPL mode is intended for interactive use only, and should not be used from scripts. It is recommended to use the functional API instead.
 └ @ Pkg.REPLMode /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/usr/share/julia/stdlib/v1.8/Pkg/src/REPLMode/REPLMode.jl:379
@@ -15,12 +14,32 @@ julia&gt; Pkg.add(&quot;EasyJobRecipes&quot;)</code></pre></li><li><p>Run</p><pr
     Updating `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Project.toml`
   [6e923fd6] + EasyJobRecipes v1.0.0-DEV `https://github.com/MineralsCloud/EasyJobRecipes.jl#main`
     Updating `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Manifest.toml`
+  [9a962f9c] + DataAPI v1.14.0
+  [e2d170a0] + DataValueInterfaces v1.0.0
+  [e7dc6d0d] + DataValues v0.4.13
   [6e923fd6] + EasyJobRecipes v1.0.0-DEV `https://github.com/MineralsCloud/EasyJobRecipes.jl#main`
+  [66d786ec] + EasyJobs v0.4.0
+  [db8ca866] + EasyJobsBase v0.4.0
+  [1c8ee90f] + IterableTables v1.0.0
+  [82899510] + IteratorInterfaceExtensions v1.0.0
+  [1914dd2f] + MacroTools v0.5.10
+  [e1d29d7a] + Missings v1.1.0
+  [1a8c2f83] + Query v1.0.0
+  [2aef5ad7] + QueryOperators v0.9.3
+  [3cdcf5f2] + RecipesBase v1.3.3
+  [189a3867] + Reexport v1.2.2
+  [ae029012] + Requires v1.3.0
+  [5e66a065] + TableShowUtils v0.2.5
+  [3783bdb8] + TableTraits v1.0.1
+  [382cd787] + TableTraitsUtils v1.0.2
+  [6d80a3f9] + Thinkers v0.1.0
+  [2f01184e] + SparseArrays
+  [10745b16] + Statistics
+  [8dfed614] + Test
 Precompiling project...
 <span class="sgr33">  ✓ </span>EasyJobRecipes
-  1 dependency successfully precompiled in 0 seconds. 20 already precompiled.
-  <span class="sgr33">1</span> dependency precompiled but a different version is currently loaded. Restart julia to access the new version</code></pre><p>in the second step above.</p><h2 id="Update-EasyJobRecipes"><a class="docs-heading-anchor" href="#Update-EasyJobRecipes">Update EasyJobRecipes</a><a id="Update-EasyJobRecipes-1"></a><a class="docs-heading-anchor-permalink" href="#Update-EasyJobRecipes" title="Permalink"></a></h2><p>Please <a href="https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository">watch</a> our <a href="https://github.com/MineralsCloud/EasyJobRecipes.jl">GitHub repository</a> for new releases. Once we release a new version, you can update EasyJobRecipes by typing</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using Pkg</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; Pkg.update(&quot;EasyJobRecipes&quot;)</code><code class="nohighlight hljs ansi" style="display:block;">    Updating registry at `~/.julia/registries/General`
-    Updating git-repo `https://github.com/JuliaRegistries/General.git`
+  1 dependency successfully precompiled in 2 seconds. 38 already precompiled.
+  <span class="sgr33">1</span> dependency precompiled but a different version is currently loaded. Restart julia to access the new version</code></pre><p>in the second step above.</p><h2 id="Update-EasyJobRecipes"><a class="docs-heading-anchor" href="#Update-EasyJobRecipes">Update EasyJobRecipes</a><a id="Update-EasyJobRecipes-1"></a><a class="docs-heading-anchor-permalink" href="#Update-EasyJobRecipes" title="Permalink"></a></h2><p>Please <a href="https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository">watch</a> our <a href="https://github.com/MineralsCloud/EasyJobRecipes.jl">GitHub repository</a> for new releases. Once we release a new version, you can update EasyJobRecipes by typing</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using Pkg</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; Pkg.update(&quot;EasyJobRecipes&quot;)</code><code class="nohighlight hljs ansi" style="display:block;">    Updating registry at `~/.julia/registries/General.toml`
     Updating git-repo `https://github.com/MineralsCloud/EasyJobRecipes.jl`
   No Changes to `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Project.toml`
   No Changes to `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Manifest.toml`</code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; Pkg.gc()</code><code class="nohighlight hljs ansi" style="display:block;">      Active manifest files: 4 found
@@ -30,4 +49,4 @@ Precompiling project...
 
 julia&gt; Pkg.rm(&quot;EasyJobRecipes&quot;)
 
-julia&gt; Pkg.gc()</code></pre></li><li><p>Press <code>ctrl+d</code> to quit the current session. Start a new Julia session and reinstall EasyJobRecipes.</p></li></ol></article><nav class="docs-footer"><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 0.27.24 on <span class="colophon-date" title="Thursday 9 March 2023 02:42">Thursday 9 March 2023</span>. Using Julia version 1.8.5.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
+julia&gt; Pkg.gc()</code></pre></li><li><p>Press <code>ctrl+d</code> to quit the current session. Start a new Julia session and reinstall EasyJobRecipes.</p></li></ol></article><nav class="docs-footer"><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 0.27.24 on <span class="colophon-date" title="Friday 24 March 2023 01:14">Friday 24 March 2023</span>. Using Julia version 1.8.5.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
