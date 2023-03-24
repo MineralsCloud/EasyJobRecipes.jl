@@ -3,6 +3,13 @@ uuid = "6e923fd6-89f4-4f43-89cd-c72d1fbcfffd"
 authors = ["singularitti <singularitti@outlook.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+EasyJobs = "66d786ec-6e9c-4d5d-a8f6-aa4f8d7350fb"
+EasyJobsBase = "db8ca866-b61f-4bd1-a9b9-75c107d645d4"
+Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+Thinkers = "6d80a3f9-a943-41fa-97b3-3004c0daf7a3"
+
 [compat]
 julia = "1"
 
