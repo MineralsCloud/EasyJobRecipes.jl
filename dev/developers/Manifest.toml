@@ -75,7 +75,7 @@ version = "1.6.0"
 
 [[deps.EasyJobRecipes]]
 deps = ["EasyJobs", "EasyJobsBase", "Query", "RecipesBase", "Thinkers"]
-git-tree-sha1 = "b239af6ae6cc69df9ead8e38f993f90997d23b21"
+git-tree-sha1 = "99d98f6c4c7ea28840fadace9360ba9485ead467"
 repo-rev = "main"
 repo-url = "https://github.com/MineralsCloud/EasyJobRecipes.jl"
 uuid = "6e923fd6-89f4-4f43-89cd-c72d1fbcfffd"
@@ -212,9 +212,9 @@ version = "1.8.0"
 
 [[deps.PrecompileTools]]
 deps = ["Preferences"]
-git-tree-sha1 = "0c265aa64283740b9b885348ee52463084de0748"
+git-tree-sha1 = "d0984cc886c48e5a165705ce65236dc2ec467b91"
 uuid = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
-version = "1.0.3"
+version = "1.1.0"
 
 [[deps.Preferences]]
 deps = ["TOML"]
@@ -321,9 +321,9 @@ uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [[deps.Thinkers]]
 deps = ["Dates"]
-git-tree-sha1 = "ecee2cbe8d0837d50f90b0400d2903a04b3d2b4a"
+git-tree-sha1 = "fcea5be7e3cc1521e629929bbdf20daa8c71c17f"
 uuid = "6d80a3f9-a943-41fa-97b3-3004c0daf7a3"
-version = "0.1.0"
+version = "0.2.0"
 
 [[deps.Tokenize]]
 git-tree-sha1 = "90538bf898832b6ebd900fa40f223e695970e3a5"
