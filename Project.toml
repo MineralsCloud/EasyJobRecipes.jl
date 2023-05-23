@@ -12,7 +12,7 @@ Thinkers = "6d80a3f9-a943-41fa-97b3-3004c0daf7a3"
 
 [compat]
 EasyJobs = "0.4"
-EasyJobsBase = "0.4, 0.5"
+EasyJobsBase = "0.4, 0.5, 0.6"
 Query = "1"
 RecipesBase = "1"
 Thinkers = "0.1, 0.2"
