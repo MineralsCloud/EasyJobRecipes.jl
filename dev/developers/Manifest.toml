@@ -79,23 +79,23 @@ version = "1.6.0"
 
 [[deps.EasyJobRecipes]]
 deps = ["EasyJobs", "EasyJobsBase", "Query", "RecipesBase", "Thinkers"]
-git-tree-sha1 = "6c7de0d946a0dfb731aab874be6c8d17433d992b"
+git-tree-sha1 = "58ba48af0b4b81fc974799390bbb9485da4b2b66"
 repo-rev = "main"
 repo-url = "https://github.com/MineralsCloud/EasyJobRecipes.jl"
 uuid = "6e923fd6-89f4-4f43-89cd-c72d1fbcfffd"
 version = "1.0.0-DEV"
 
 [[deps.EasyJobs]]
-deps = ["EasyJobsBase", "Query", "Reexport", "UUIDs"]
-git-tree-sha1 = "eb2617d0ad9ec673cb90f56478591e3ffdf0b331"
+deps = ["EasyJobsBase", "Query", "Reexport", "Thinkers", "UUIDs"]
+git-tree-sha1 = "4e52d0a7de5cb829bb26bc5cdc64eef157880db3"
 uuid = "66d786ec-6e9c-4d5d-a8f6-aa4f8d7350fb"
-version = "0.4.0"
+version = "0.5.0"
 
 [[deps.EasyJobsBase]]
-deps = ["Dates", "UUIDs"]
-git-tree-sha1 = "dbd5543e1b30db91ee8b1c5cd3043f2944728263"
+deps = ["Dates", "Thinkers", "UUIDs"]
+git-tree-sha1 = "5145e6e4947adb543d8464f34b7192c89aca8a1e"
 uuid = "db8ca866-b61f-4bd1-a9b9-75c107d645d4"
-version = "0.4.0"
+version = "0.6.0"
 
 [[deps.FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
@@ -128,9 +128,9 @@ version = "0.21.4"
 
 [[deps.JuliaFormatter]]
 deps = ["CSTParser", "CommonMark", "DataStructures", "Glob", "Pkg", "PrecompileTools", "Tokenize"]
-git-tree-sha1 = "01ab91fcce19c965b3c68a82eb26260a3a7af271"
+git-tree-sha1 = "8c4e30ff45954b40d5deaaf967862c288dfd023c"
 uuid = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
-version = "1.0.29"
+version = "1.0.30"
 
 [[deps.LibCURL]]
 deps = ["LibCURL_jll", "MozillaCACerts_jll"]
