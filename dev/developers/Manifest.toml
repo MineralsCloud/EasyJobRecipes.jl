@@ -1,6 +1,6 @@
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.9.0"
+julia_version = "1.9.1"
 manifest_format = "2.0"
 project_hash = "d0048a3563a6b552279ecbccdfa29d5197d9be6a"
 
@@ -79,7 +79,7 @@ version = "1.6.0"
 
 [[deps.EasyJobRecipes]]
 deps = ["EasyJobs", "EasyJobsBase", "Query", "RecipesBase", "Thinkers"]
-git-tree-sha1 = "f36a2095fcf9397554fc56f5e5e1567589f89d03"
+git-tree-sha1 = "98b4da46c089d52ee26a4885f3e1338842d91b8e"
 repo-rev = "main"
 repo-url = "https://github.com/MineralsCloud/EasyJobRecipes.jl"
 uuid = "6e923fd6-89f4-4f43-89cd-c72d1fbcfffd"
@@ -128,9 +128,9 @@ version = "0.21.4"
 
 [[deps.JuliaFormatter]]
 deps = ["CSTParser", "CommonMark", "DataStructures", "Glob", "Pkg", "PrecompileTools", "Tokenize"]
-git-tree-sha1 = "8c4e30ff45954b40d5deaaf967862c288dfd023c"
+git-tree-sha1 = "60567b51bd9e1e19ae2fd8a54dcd6bc5994727f0"
 uuid = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
-version = "1.0.30"
+version = "1.0.34"
 
 [[deps.LibCURL]]
 deps = ["LibCURL_jll", "MozillaCACerts_jll"]
@@ -216,9 +216,9 @@ version = "1.9.0"
 
 [[deps.PrecompileTools]]
 deps = ["Preferences"]
-git-tree-sha1 = "259e206946c293698122f63e2b513a7c99a244e8"
+git-tree-sha1 = "9673d39decc5feece56ef3940e5dafba15ba0f81"
 uuid = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
-version = "1.1.1"
+version = "1.1.2"
 
 [[deps.Preferences]]
 deps = ["TOML"]
@@ -354,7 +354,7 @@ version = "1.2.13+0"
 [[deps.libblastrampoline_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
-version = "5.7.0+0"
+version = "5.8.0+0"
 
 [[deps.nghttp2_jll]]
 deps = ["Artifacts", "Libdl"]
