@@ -15,7 +15,7 @@ EasyJobs = "0.4, 0.5"
 EasyJobsBase = "0.4, 0.5, 0.6, 0.7, 0.8, 0.9"
 Query = "1"
 RecipesBase = "1"
-Thinkers = "0.1, 0.2"
+Thinkers = "0.1, 0.2, 0.3"
 julia = "1"
 
 [extras]
