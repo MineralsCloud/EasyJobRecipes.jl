@@ -11,6 +11,7 @@ julia&gt; Pkg.add(&quot;EasyJobRecipes&quot;)</code></pre></li><li><p>Run</p><pr
      Cloning git-repo `https://github.com/MineralsCloud/EasyJobRecipes.jl`
     Updating git-repo `https://github.com/MineralsCloud/EasyJobRecipes.jl`
    Resolving package versions...
+   Installed EasyJobs ─ v0.9.0
     Updating `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Project.toml`
   [6e923fd6] + EasyJobRecipes v1.0.0-DEV `https://github.com/MineralsCloud/EasyJobRecipes.jl#main`
     Updating `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Manifest.toml`
@@ -18,8 +19,8 @@ julia&gt; Pkg.add(&quot;EasyJobRecipes&quot;)</code></pre></li><li><p>Run</p><pr
   [e2d170a0] + DataValueInterfaces v1.0.0
   [e7dc6d0d] + DataValues v0.4.13
   [6e923fd6] + EasyJobRecipes v1.0.0-DEV `https://github.com/MineralsCloud/EasyJobRecipes.jl#main`
-  [66d786ec] + EasyJobs v0.7.0
-⌅ [db8ca866] + EasyJobsBase v0.12.0
+  [66d786ec] + EasyJobs v0.9.0
+⌅ [db8ca866] + EasyJobsBase v0.13.0
   [1c8ee90f] + IterableTables v1.0.0
   [82899510] + IteratorInterfaceExtensions v1.0.0
   [1914dd2f] + MacroTools v0.5.10
@@ -29,25 +30,29 @@ julia&gt; Pkg.add(&quot;EasyJobRecipes&quot;)</code></pre></li><li><p>Run</p><pr
   [3cdcf5f2] + RecipesBase v1.3.4
   [189a3867] + Reexport v1.2.2
   [ae029012] + Requires v1.3.0
-  [5e66a065] + TableShowUtils v0.2.5
+  [5e66a065] + TableShowUtils v0.2.6
   [3783bdb8] + TableTraits v1.0.1
   [382cd787] + TableTraitsUtils v1.0.2
-  [6d80a3f9] + Thinkers v0.3.1
+⌅ [6d80a3f9] + Thinkers v0.3.1
   [8ba89e20] + Distributed
   [37e2e46d] + LinearAlgebra
   [2f01184e] + SparseArrays
   [10745b16] + Statistics v1.9.0
-  [8dfed614] + Test
   [e66e0078] + CompilerSupportLibraries_jll v1.0.5+0
   [4536629a] + OpenBLAS_jll v0.3.21+4
   [bea87d4a] + SuiteSparse_jll v5.10.1+6
   [8e850b90] + libblastrampoline_jll v5.8.0+0
         Info Packages marked with ⌅ have new versions available but compatibility constraints restrict them from upgrading. To see why use `status --outdated -m`
 Precompiling project...
+<span class="sgr33">  ✓ </span><span class="sgr90">EasyJobs</span>
 <span class="sgr33">  ✓ </span>EasyJobRecipes
-  1 dependency successfully precompiled in 1 seconds. 39 already precompiled.
-  <span class="sgr33">1</span> dependency precompiled but a different version is currently loaded. Restart julia to access the new version
-  <span class="sgr33">1</span> dependency had warnings during precompilation:<span class="sgr33">
+  2 dependencies successfully precompiled in 3 seconds. 38 already precompiled.
+  <span class="sgr33">2</span> dependencies precompiled but different versions are currently loaded. Restart julia to access the new versions
+  <span class="sgr33">2</span> dependencies had warnings during precompilation:<span class="sgr33">
+┌ </span>EasyJobs [66d786ec-6e9c-4d5d-a8f6-aa4f8d7350fb]<span class="sgr33">
+│  </span>WARNING: Method definition (::Type{Thinkers.TimeLimitedThunk})(Any, Any) in module Thinkers at /home/runner/.julia/packages/Thinkers/AFzBt/src/TimeLimitedThunk.jl:15 overwritten at /home/runner/.julia/packages/Thinkers/AFzBt/src/TimeLimitedThunk.jl:9.<span class="sgr33">
+│  </span>  ** incremental compilation may be fatally broken for this module **<span class="sgr33">
+└  
 ┌ </span>EasyJobRecipes [6e923fd6-89f4-4f43-89cd-c72d1fbcfffd]<span class="sgr33">
 │  </span>WARNING: Method definition (::Type{Thinkers.TimeLimitedThunk})(Any, Any) in module Thinkers at /home/runner/.julia/packages/Thinkers/AFzBt/src/TimeLimitedThunk.jl:15 overwritten at /home/runner/.julia/packages/Thinkers/AFzBt/src/TimeLimitedThunk.jl:9.<span class="sgr33">
 │  </span>  ** incremental compilation may be fatally broken for this module **<span class="sgr33">
@@ -61,4 +66,4 @@ Precompiling project...
 
 julia&gt; Pkg.rm(&quot;EasyJobRecipes&quot;)
 
-julia&gt; Pkg.gc()</code></pre></li><li><p>Press <code>ctrl+d</code> to quit the current session. Start a new Julia session and reinstall EasyJobRecipes.</p></li></ol></article><nav class="docs-footer"><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 0.27.25 on <span class="colophon-date" title="Wednesday 12 July 2023 01:34">Wednesday 12 July 2023</span>. Using Julia version 1.9.2.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
+julia&gt; Pkg.gc()</code></pre></li><li><p>Press <code>ctrl+d</code> to quit the current session. Start a new Julia session and reinstall EasyJobRecipes.</p></li></ol></article><nav class="docs-footer"><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 0.27.25 on <span class="colophon-date" title="Saturday 22 July 2023 03:48">Saturday 22 July 2023</span>. Using Julia version 1.9.2.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
