@@ -7,7 +7,7 @@ julia&gt; Pkg.update()
 julia&gt; Pkg.add(&quot;EasyJobRecipes&quot;)</code></pre></li><li><p>Run</p><pre><code class="language-julia-repl hljs">julia&gt; using EasyJobRecipes</code></pre><p>and have fun!</p></li><li><p>While using, please keep this Julia session alive. Restarting might cost some time.</p></li></ol><p>If you want to install the latest in-development (probably buggy) version of EasyJobRecipes, type</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using Pkg</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; Pkg.update()</code><code class="nohighlight hljs ansi" style="display:block;"><span class="sgr32"><span class="sgr1">    Updating</span></span> registry at `~/.julia/registries/General.toml`
 <span class="sgr32"><span class="sgr1">  No Changes</span></span> to `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Project.toml`
 <span class="sgr32"><span class="sgr1">  No Changes</span></span> to `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Manifest.toml`</code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; pkg&quot;add https://github.com/MineralsCloud/EasyJobRecipes.jl&quot;</code><code class="nohighlight hljs ansi" style="display:block;"><span class="sgr33"><span class="sgr1">┌ Warning: </span></span>The Pkg REPL mode is intended for interactive use only, and should not be used from scripts. It is recommended to use the functional API instead.
-<span class="sgr33"><span class="sgr1">└ </span></span><span class="sgr90">@ Pkg.REPLMode /opt/hostedtoolcache/julia/1.9.3/x64/share/julia/stdlib/v1.9/Pkg/src/REPLMode/REPLMode.jl:382</span>
+<span class="sgr33"><span class="sgr1">└ </span></span><span class="sgr90">@ Pkg.REPLMode /opt/hostedtoolcache/julia/1.10.0/x64/share/julia/stdlib/v1.10/Pkg/src/REPLMode/REPLMode.jl:382</span>
 <span class="sgr32"><span class="sgr1">     Cloning</span></span> git-repo `https://github.com/MineralsCloud/EasyJobRecipes.jl`
 <span class="sgr32"><span class="sgr1">    Updating</span></span> git-repo `https://github.com/MineralsCloud/EasyJobRecipes.jl`
 <span class="sgr32"><span class="sgr1">   Resolving</span></span> package versions...
@@ -18,11 +18,11 @@ julia&gt; Pkg.add(&quot;EasyJobRecipes&quot;)</code></pre></li><li><p>Run</p><pr
   <span class="sgr90">[e2d170a0] </span><span class="sgr92">+ DataValueInterfaces v1.0.0</span>
   <span class="sgr90">[e7dc6d0d] </span><span class="sgr92">+ DataValues v0.4.13</span>
   <span class="sgr90">[6e923fd6] </span><span class="sgr92">+ EasyJobRecipes v1.0.0-DEV `https://github.com/MineralsCloud/EasyJobRecipes.jl#main`</span>
-<span class="sgr32">⌃</span> <span class="sgr90">[66d786ec] </span><span class="sgr92">+ EasyJobs v0.9.1</span>
-<span class="sgr33">⌅</span> <span class="sgr90">[db8ca866] </span><span class="sgr92">+ EasyJobsBase v0.14.1</span>
+  <span class="sgr90">[66d786ec] </span><span class="sgr92">+ EasyJobs v0.10.0</span>
+  <span class="sgr90">[db8ca866] </span><span class="sgr92">+ EasyJobsBase v0.15.0</span>
   <span class="sgr90">[1c8ee90f] </span><span class="sgr92">+ IterableTables v1.0.0</span>
   <span class="sgr90">[82899510] </span><span class="sgr92">+ IteratorInterfaceExtensions v1.0.0</span>
-  <span class="sgr90">[1914dd2f] </span><span class="sgr92">+ MacroTools v0.5.11</span>
+  <span class="sgr90">[1914dd2f] </span><span class="sgr92">+ MacroTools v0.5.13</span>
   <span class="sgr90">[e1d29d7a] </span><span class="sgr92">+ Missings v1.1.0</span>
   <span class="sgr90">[1a8c2f83] </span><span class="sgr92">+ Query v1.0.0</span>
   <span class="sgr90">[2aef5ad7] </span><span class="sgr92">+ QueryOperators v0.9.3</span>
@@ -35,24 +35,23 @@ julia&gt; Pkg.add(&quot;EasyJobRecipes&quot;)</code></pre></li><li><p>Run</p><pr
   <span class="sgr90">[6d80a3f9] </span><span class="sgr92">+ Thinkers v0.4.1</span>
   <span class="sgr90">[8ba89e20] </span><span class="sgr92">+ Distributed</span>
   <span class="sgr90">[37e2e46d] </span><span class="sgr92">+ LinearAlgebra</span>
-  <span class="sgr90">[2f01184e] </span><span class="sgr92">+ SparseArrays</span>
-  <span class="sgr90">[10745b16] </span><span class="sgr92">+ Statistics v1.9.0</span>
-  <span class="sgr90">[e66e0078] </span><span class="sgr92">+ CompilerSupportLibraries_jll v1.0.5+0</span>
-  <span class="sgr90">[4536629a] </span><span class="sgr92">+ OpenBLAS_jll v0.3.21+4</span>
-  <span class="sgr90">[bea87d4a] </span><span class="sgr92">+ SuiteSparse_jll v5.10.1+6</span>
-  <span class="sgr90">[8e850b90] </span><span class="sgr92">+ libblastrampoline_jll v5.8.0+0</span>
-<span class="sgr36"><span class="sgr1">        Info</span></span> Packages marked with <span class="sgr32">⌃</span> and <span class="sgr33">⌅</span> have new versions available, but those with <span class="sgr33">⌅</span> are restricted by compatibility constraints from upgrading. To see why use `status --outdated -m`
+  <span class="sgr90">[2f01184e] </span><span class="sgr92">+ SparseArrays v1.10.0</span>
+  <span class="sgr90">[10745b16] </span><span class="sgr92">+ Statistics v1.10.0</span>
+  <span class="sgr90">[e66e0078] </span><span class="sgr92">+ CompilerSupportLibraries_jll v1.0.5+1</span>
+  <span class="sgr90">[4536629a] </span><span class="sgr92">+ OpenBLAS_jll v0.3.23+2</span>
+  <span class="sgr90">[bea87d4a] </span><span class="sgr92">+ SuiteSparse_jll v7.2.1+1</span>
+  <span class="sgr90">[8e850b90] </span><span class="sgr92">+ libblastrampoline_jll v5.8.0+1</span>
 <span class="sgr32"><span class="sgr1">Precompiling</span></span> project...
 <span class="sgr33">  ✓ </span>EasyJobRecipes
-  1 dependency successfully precompiled in 2 seconds. 39 already precompiled.
+  1 dependency successfully precompiled in 1 seconds. 39 already precompiled.
   <span class="sgr33">1</span> dependency precompiled but a different version is currently loaded. Restart julia to access the new version</code></pre><p>in the second step above.</p><h2 id="Update-EasyJobRecipes"><a class="docs-heading-anchor" href="#Update-EasyJobRecipes">Update EasyJobRecipes</a><a id="Update-EasyJobRecipes-1"></a><a class="docs-heading-anchor-permalink" href="#Update-EasyJobRecipes" title="Permalink"></a></h2><p>Please <a href="https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository">watch</a> our <a href="https://github.com/MineralsCloud/EasyJobRecipes.jl">GitHub repository</a> for new releases. Once we release a new version, you can update EasyJobRecipes by typing</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using Pkg</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; Pkg.update(&quot;EasyJobRecipes&quot;)</code><code class="nohighlight hljs ansi" style="display:block;"><span class="sgr32"><span class="sgr1">    Updating</span></span> registry at `~/.julia/registries/General.toml`
 <span class="sgr32"><span class="sgr1">    Updating</span></span> git-repo `https://github.com/MineralsCloud/EasyJobRecipes.jl`
 <span class="sgr32"><span class="sgr1">  No Changes</span></span> to `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Project.toml`
 <span class="sgr32"><span class="sgr1">  No Changes</span></span> to `~/work/EasyJobRecipes.jl/EasyJobRecipes.jl/docs/build/developers/Manifest.toml`</code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; Pkg.gc()</code><code class="nohighlight hljs ansi" style="display:block;"><span class="sgr32"><span class="sgr1">      Active</span></span> manifest files: 4 found
-<span class="sgr32"><span class="sgr1">      Active</span></span> artifact files: 0 found
+<span class="sgr32"><span class="sgr1">      Active</span></span> artifact files: 4 found
 <span class="sgr32"><span class="sgr1">      Active</span></span> scratchspaces: 0 found
 <span class="sgr32"><span class="sgr1">     Deleted</span></span> no artifacts, repos, packages or scratchspaces</code></pre><p>in the Julia REPL.</p><h2 id="Uninstall-and-reinstall-EasyJobRecipes"><a class="docs-heading-anchor" href="#Uninstall-and-reinstall-EasyJobRecipes">Uninstall and reinstall EasyJobRecipes</a><a id="Uninstall-and-reinstall-EasyJobRecipes-1"></a><a class="docs-heading-anchor-permalink" href="#Uninstall-and-reinstall-EasyJobRecipes" title="Permalink"></a></h2><p>Sometimes errors may occur if the package is not properly installed. In this case, you may want to uninstall and reinstall the package. Here is how to do that:</p><ol><li><p>To uninstall, in a Julia session, run</p><pre><code class="language-julia-repl hljs">julia&gt; using Pkg
 
 julia&gt; Pkg.rm(&quot;EasyJobRecipes&quot;)
 
-julia&gt; Pkg.gc()</code></pre></li><li><p>Press <code>ctrl+d</code> to quit the current session. Start a new Julia session and reinstall EasyJobRecipes.</p></li></ol></article><nav class="docs-footer"><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option><option value="auto">Automatic (OS)</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 1.1.2 on <span class="colophon-date" title="Wednesday 25 October 2023 09:18">Wednesday 25 October 2023</span>. Using Julia version 1.9.3.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
+julia&gt; Pkg.gc()</code></pre></li><li><p>Press <code>ctrl+d</code> to quit the current session. Start a new Julia session and reinstall EasyJobRecipes.</p></li></ol></article><nav class="docs-footer"><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option><option value="auto">Automatic (OS)</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 1.2.1 on <span class="colophon-date" title="Sunday 21 January 2024 08:03">Sunday 21 January 2024</span>. Using Julia version 1.10.0.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
